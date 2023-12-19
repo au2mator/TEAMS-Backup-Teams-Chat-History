@@ -52,7 +52,7 @@ $ErrorCount = 0
 [string]$DCServer = 'svdc01'
 [string]$LogPath = "C:\_SCOworkingDir\TFS\PS-Services\M365 - Backup MS Teams Chat History"
 [string]$LogfileName = "Backup MS Teams Chat History"
-[string]$CredentialStorePath = "C:\_SCOworkingDir\TFS\PS-Services\CredentialStore" #see for details: https://au2mator.com/documentation/powershell-credentials/
+[string]$CredentialStorePath = "C:\_SCOworkingDir\TFS\PS-Services\CredentialStore" #see for details: https://click.au2mator.com/PSCreds/
 $Modules = @("ActiveDirectory", "SharePointPnPPowerShellOnline")
 
 
